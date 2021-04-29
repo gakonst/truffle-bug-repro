@@ -1,0 +1,14 @@
+{
+  "name": "truffle-repro",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "scripts": {
+      "geth": "geth --dev --rpc",
+      "repro": "npx truffle migrate --network local"
+  },
+  "devDependencies": {
+    "@truffle/hdwallet-provider": "^1.2.6",
+    "truffle": "^5.3.3"
+  }
+}
